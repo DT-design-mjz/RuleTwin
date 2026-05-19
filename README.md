@@ -120,7 +120,8 @@ python sumn.py ^
 
 ## Experimental Results
 
-![[result.png]]
+<img width="1369" height="529" alt="1a45b556e20f66eb00eb8b6d913cf299" src="https://github.com/user-attachments/assets/42801a94-6c3d-4d8c-bc98-2dc663ece506" />
+
 
 ## System Architecture
 
