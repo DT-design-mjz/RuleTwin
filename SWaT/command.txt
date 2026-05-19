@@ -1,0 +1,67 @@
+原始攻击数据集
+python sum.py ^
+  --input SWaT_Dataset_Attack_v0.csv ^
+  --output My_Results.csv ^
+  --window_lit 90 ^
+  --k 60 ^
+  --trend_window 40 ^
+  --backwash_window 60 ^
+  --rules rules_summary.json ^
+  --rules_act rules_merged.csv ^
+  --rules_pair rules_summary_pairs.csv
+
+
+修复版攻击数据集
+python sum.py ^
+  --input SWaT_Dataset_Attack_v0_fixed.csv ^
+  --output My_Results_fixed.csv ^
+  --window_lit 90 ^
+  --k 60 ^
+  --trend_window 40 ^
+  --backwash_window 60 ^
+  --rules rules_summary.json ^
+  --rules_act rules_merged.csv ^
+  --rules_pair rules_summary_pairs.csv 
+
+
+
+
+1. 基础输入/输出参数
+--input (默认: SWaT_Dataset_Attack_v0.csv)
+
+输入的数据集文件路径。支持 .csv 或 .xlsx。
+
+--output (默认: SWaT_Integrated_Detection_Result.csv)
+
+检测结果的输出文件路径。
+
+2. 物理模型参数 (LIT/PIT/AIT)
+--window_lit (默认: 90)
+
+LIT 物理模型的滑动窗口大小（单位：行/秒）。用于计算流体力学公式和标准差。
+
+3. 事件与规则检测参数 (MX, BP, S1, S2, S3)
+--k (默认: 20)
+
+规则匹配搜索半径。当检测到前项（如水位低）时，在前后 k 行内搜索后项（如泵开启）。
+
+--trend_window (默认: 10)
+
+传感器趋势窗口。用于判断传感器是否持续上升/下降并触及阈值。
+
+--backwash_window (默认: 60)
+
+反冲洗上下文窗口。用于检测当前是否处于反冲洗状态（MV303=2），以此抑制特定规则的误报。
+
+4. 规则配置文件路径
+--rules (默认: rules_summary.json)
+
+定义传感器上下限的 JSON 文件。
+
+--rules_act (默认: rules_merged.csv)
+
+定义“执行器->执行器”联动规则的 CSV 文件。
+
+--rules_pair (默认: rules_summary_pairs.csv)
+
+定义“传感器->执行器”配对规则的 CSV 文件

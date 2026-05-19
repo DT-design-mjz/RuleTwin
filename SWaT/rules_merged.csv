@@ -1,0 +1,6 @@
+antecedent,consequent_events,pair_count,lhs_total,confidence,context
+P302_closing_trend,"MV302_closing_trend,MV303_opening_trend,MV301_opening_trend,P602_opening_trend,P602_closing_trend,MV301_closing_trend,MV304_opening_trend,P302_opening_trend,MV303_closing_trend,MV302_opening_trend,MV304_closing_trend",104,104,1.0,backwash
+MV201_opening_trend,"P101_opening_trend,P203_opening_trend,P205_opening_trend",97,97,1.0,normal
+P302_closing_trend,MV302_closing_trend,96,96,1.0,normal
+MV304_opening_trend,"P302_opening_trend,MV302_opening_trend,MV304_closing_trend",8,8,1.0,normal
+P101_closing_trend,"MV201_closing_trend,P203_closing_trend,P205_closing_trend",3,3,1.0,normal

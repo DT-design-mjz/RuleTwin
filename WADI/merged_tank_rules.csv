@@ -1,0 +1,3 @@
+﻿Antecedent (Tank Condition),Consequent (Merged Actions)
+1_LT_001_PV is High,"1_MV_001_STATUS_Close (100.0%), 1_MV_004_STATUS_Open (100.0%), 1_P_001_STATUS_Close (100.0%), 1_P_003_STATUS_Close (100.0%)"
+1_LT_001_PV is Low,"1_MV_001_STATUS_Open (97.8%), 1_P_001_STATUS_Open (97.8%), 1_P_003_STATUS_Open (97.8%)"

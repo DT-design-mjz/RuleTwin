@@ -1,0 +1,35 @@
+{
+    "constant_actuators": {
+        "1_LS_001_AL": 0,
+        "1_LS_002_AL": 0,
+        "1_MV_002_STATUS": 1,
+        "1_MV_003_STATUS": 1,
+        "1_P_002_STATUS": 1,
+        "1_P_004_STATUS": 1,
+        "1_P_006_STATUS": 1,
+        "2_MV_001_STATUS": 1,
+        "2_MV_002_STATUS": 1,
+        "2_MV_004_STATUS": 2,
+        "2_MV_005_STATUS": 2,
+        "2_MV_009_STATUS": 2,
+        "2_P_004_STATUS": 1,
+        "2_SV_101_STATUS": 1,
+        "2_SV_201_STATUS": 1,
+        "2_SV_301_STATUS": 1,
+        "2_SV_401_STATUS": 1,
+        "2_SV_501_STATUS": 1,
+        "2_SV_601_STATUS": 1,
+        "3_LS_001_AL": 1,
+        "3_MV_001_STATUS": 1,
+        "3_MV_002_STATUS": 1,
+        "3_MV_003_STATUS": 1,
+        "3_P_001_STATUS": 1,
+        "3_P_002_STATUS": 1,
+        "3_P_003_STATUS": 1,
+        "3_P_004_STATUS": 1,
+        "PLANT_START_STOP_LOG": 1
+    },
+    "constant_sensors": {
+        "2_MCV_007_CO": 0
+    }
+}

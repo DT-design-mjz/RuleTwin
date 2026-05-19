@@ -1,0 +1,12 @@
+python sumn.py ^
+  --data_file "WADI_attackdataLABLE.csv" ^
+  --rules_file "merged_tank_rules.csv" ^
+  --output_file "WADI_Final_Fusion_Result.csv" ^
+  --min_anomaly_length_model 60 ^
+  --default_threshold 3.0 3.0 ^
+  --trend_window 40 ^
+  --fluctuation_val 0.5 ^
+  --search_buffer 60 ^
+  --threshold_pct 0.05 ^
+  --max_gap_size_rule 10 ^
+  --std_check_window 120

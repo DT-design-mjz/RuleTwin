@@ -1,0 +1,16 @@
+{
+  "bounds": {
+    "LIT101": {
+      "lower": 500,
+      "upper": 800
+    },
+    "LIT301": {
+      "lower": 800,
+      "upper": 999
+    },
+    "LIT401": {
+      "lower": 788,
+      "upper": 998
+    }
+  }
+}
