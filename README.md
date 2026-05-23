@@ -184,16 +184,18 @@ Contributions are welcome! Please submit Issues and Pull Requests to improve thi
 **RuleTwin: Physics-Constrained Rule Induction for Anomaly Detection in Industrial Multivariate TimeSeries**
 
 > Jingzheng Mao et al.  
-> Conference on Industrial Control Systems Security, 2026  
-> DOI: [10.1109/ICSS.2026.XXXXXX](https://doi.org/10.1109/ICSS.2026.XXXXXX)
+> KDD '26: Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2  
+> August 09--13, 2026, Jeju Island, Republic of Korea  
+> DOI: [10.1145/3770855.3818020](https://doi.org/10.1145/3770855.3818020)
 
 ```bibtex
 @inproceedings{rule_twin_2026,
   title={RuleTwin: Physics-Constrained Rule Induction for Anomaly Detection in Industrial Multivariate TimeSeries},
   author={Jingzheng Mao and Co-authors},
-  booktitle={Conference on Industrial Control Systems Security},
+  booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
   year={2026},
   pages={1-10},
-  doi={10.1109/ICSS.2026.XXXXXX}
+  doi={10.1145/3770855.3818020},
+  isbn={979-8-4007-2259-2/2026/08}
 }
 ```
