@@ -121,6 +121,8 @@ python sumn.py ^
 ## Experimental Results
 
 <img width="1369" height="529" alt="1a45b556e20f66eb00eb8b6d913cf299" src="https://github.com/user-attachments/assets/42801a94-6c3d-4d8c-bc98-2dc663ece506" />
+<img width="1154" height="1074" alt="82661cb924a10cc246acdb1dc02050fa" src="https://github.com/user-attachments/assets/bb726ada-5f90-435c-81be-0be0e6dfe140" />
+
 
 
 ## System Architecture
